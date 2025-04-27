@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    background-color: hsl(282, 22%, 12%);
+
+}
+.header {
+    margin-bottom: 30px;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 20px 10px;
+
+}
+.logo {
+    width: 234px;
+    height: 100px;
+    margin-right: auto;
+}
+.site-navigation {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    list-style: none;
+}
+.site-navigation-item {
+    margin-right: 30px;
+
+}
+.site-navigation-item a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+.site-navigation-item a:hover {
+    opacity: 0.5;
+    color: #a86262;
+}
+.site-navigation-item a:active {
+    opacity: 0.3;
+    color: pink;
+}
+
+.signin:hover {
+    opacity: 0.5;
+}
+.signin:active {
+    opacity: 0.3;
+}
+.hero {
+    margin-bottom: 120px;
+    background-color: #211825;
+}
+.hero h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.hero img {
+    display: block;
+}
+
+.blog-article {
+    width: 1902px;
+    margin: 0 auto;
+}
+
+.blog-article-content {
+    position: absolute;
+    width: 400px;
+    left: 792px;
+	top: 1680px;
+}
+
+.blog-article-img {
+    width: 1902px;
+}
+
+.blog-article-date {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.blog-article h2{
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: underline #fff 2px solid;
+
+}
+
+.blog-article-discription {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+}
+.more {
+    padding: 0;
+    font-family: inherit;
+    color: inherit;
+    font-style: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 2px;
+}
+.more:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+.more:active {
+    text-decoration: none;
+    opacity: 0.3;
+}
+.gallery {
+    margin-bottom: 120px;
+    margin-left: 350px;
+}
+
+.gallery h2 {
+    margin-top: 0;
+    margin-bottom: 55px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: 2px solid #ffffff;
+
+}
+.slider {
+    display: flex;
+    align-items: flex-start;
+}
+.active-photo {
+    width: 970px;
+    margin-right: 30px;
+}
+.preview-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 170px;
+}
+.preview-list li {
+    display: block;
+    margin-bottom: 30px;
+}
+.preview-list li:last-child {
+    margin-bottom: 0;
+}
+
+.preview-list a {
+    position: relative;
+    display: block;
+
+}
+.preview-list a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.preview-list a.active-item::before {
+    background-color: transparent;
+}
+
+.preview-list img {
+    display: block;
+}
+.main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 120px;
+    font-size: 10px;
+    line-height: 12px;
+    border-top: 1px solid #fff;    
+}
+.footer-container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 55px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-column {
+    width: 175px;
+}
+
+.main-footer .logo {
+    margin-bottom: 30px;
+}
+
+.footer-navigation-topics {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer-navigation-topic {
+    width: 165px;
+}
+.footer-navigation-topic h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.footer-navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-navigation-item {
+    margin-bottom: 12px;
+}
+.footer-navigation-item a {
+    text-decoration: none;
+    color: #fff
+}
+.footer-navigation-item a:hover{
+    opacity: 0.5;
+}
+.footer-navigation-item a:active{
+    opacity: 0.3;
+}
+.policy {
+    margin: 0;
+    bottom: 0;
+}
+.policy a{
+    text-decoration: none;
+    color: #fff;
+}
+.policy a:hover {
+    opacity: 0.5;
+}
+.policy a:active {
+    opacity: 0.3;
+}
+.copyrignt {
+    margin: 0;
+}
